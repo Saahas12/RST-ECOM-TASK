@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product Page</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <header class="ecom-header">
+            <a href="./index.html" class="logo">LOGO</a>
+            <nav class="ecom-navbar">
+                <a href="#">Rings</a>
+                <a href="#">Earrings</a>
+                <a href="#">Necklaces</a>
+                <a href="./support.html">Contact</a>
+                <a href="#" class="shopping-cart"><img src="./assets/shopping-cart.svg" alt="shopping-cart">0</a>
+                <a href="#" class="login-btn">LOGIN</a>
+            </nav>
+        </header>
+
+        <div id="singleproduct-section">
+            <div class="image-section">
+                <img src="./assets/singleProductlargeimage.png" alt="product-image-1" class="main-product-image">
+                <div class="image-carousel-square">
+                    <img src="./assets/singleProductlargeimage.png" alt="product-image-1" class="product-image-1">
+                    <img src="./assets/product-image-2.jpg" alt="product-image-2" class="product-image-2">
+                    <img src="./assets/product-image-3.jpg" alt="product-image-3" class="product-image-3">
+                    <img src="./assets/product-image-4.jpg" alt="product-image-4" class="product-image-4">
+                    <img src="./assets/product-image-5.jpg" alt="product-image-5" class="product-image-5">
+                </div>
+            </div>
+            <div class="description-section">
+                <h3>Diamond with Gold Plated ring</h3>
+                <div class="price-details-1">
+                    <p class="price-text-1">₹76,000</p>
+                </div>
+                <select name="size-opt" id="sizes" class="sizes">
+                    <option value="5">5 (44.8 mm)</option>
+                    <option value="6">6 (45.9 mm)</option>
+                    <option value="7">7 (46.7 mm)</option>
+                    <option value="8">9 (47.6 mm)</option>
+                </select>
+
+                <div class="delievery-details">
+                    <label for="pincode" class="pincode-label">Delievery & Details</label>
+                    <input type="text" name="pincode" id="pincode" class="pincode-text" placeholder="PINCODE">
+                </div>
+
+                <div class="price-details">
+                    <p class="price-text">₹76,000</p>
+                    <a href="#"><button class="add-to-cart-btn">ADD TO CART</button></a>
+                </div>
+
+                <div class="description-card-section">
+                    <div class="small-desc-card-1">
+                        <p class="small-desc-title">Dimensions<iconify-icon icon="tabler:dimensions" style="color: #0079c1;"></iconify-icon></p>
+                        <li>Width - 7.62 mm</li>
+                        <li>Height - 8.74 mm</li>
+                        <li>Size - 5 mm</li>
+                    </div>
+                    <div class="small-desc-card-2">
+                        <p class="small-desc-title">Weight<iconify-icon icon="material-symbols:weight-outline" style="color: #0079c1; text-align: center; justify-content: center;"></iconify-icon></p>
+                        <li>Gross 3.076g</li>
+                    </div>
+                    <div class="small-desc-card-3">
+                        <p class="small-desc-title">Purity<iconify-icon icon="uil:gold" style="color: #0079c1;"></iconify-icon></p>
+                        <li>18 KT</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <footer class="common-footer">
+            <div class="footer-title">
+                <div class="footer-links">
+                    <p class="categories">CATEGORIES</p>
+                    <li><a href="#" class="rings">RINGS</a></li>
+                    <li><a href="#" class="earrings">EARRINGS</a></li>
+                    <li><a href="#" class="necklaces">NECKLACES</a></li>
+                </div>
+            </div>
+
+            <div class="footer-title">
+                <div class="footer-links">
+                    <p class="categories">PAYMENT</p>
+                    <li><a href="#" class="paypal">PAYPAL</a></li>
+                    <li><a href="#" class="upi">UPI</a></li>
+                </div>
+            </div>
+
+            <div class="footer-title">
+                <div class="footer-links">
+                    <p class="categories">FOLLOW US</p>
+                    <li class="instagram"><a href="#" class="instagram">INSTAGRAM</a></li>
+                    <li><a href="#" class="facebook">FACEBOOK</a></li>
+                    <li><a href="#" class="whatsapp">WHATSAPP</a></li>
+                </div>
+            </div>
+            <p class="copyright">COPYRIGHT 2024 by LOGO. ALL RIGHTS RESERVED.</p>
+
+        </footer>
+    </main>
+</body>
+
+</html>

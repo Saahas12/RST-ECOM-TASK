@@ -1,0 +1,1041 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: auto;
+    height: auto;
+    font-size: 100%;
+}
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: 'Poppins', sans-serif !important;
+    
+}
+
+.ecom-header a {
+    text-decoration: none;
+}
+
+.ecom-header .logo {
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    text-decoration: none;
+    color: #2d676b;
+}
+
+.ecom-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    box-shadow: 1px 0px 10px 10px rgba(45, 184, 194, 0.3);
+}
+.ecom-navbar{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.ecom-navbar a {
+    color: black;
+}
+
+.ecom-navbar .shopping-cart{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.3rem;
+}
+
+
+.ecom-header .login-btn{
+    background-color: #2d676b;
+    padding: 0.7rem 2rem;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.2s;
+}
+
+.ecom-header .login-btn:hover{
+    background-color: #7ed1d7;
+    color: black;
+}
+
+.diamonds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 525px;
+    text-align: center;
+    background: rgb(240, 186, 99);
+    margin-top: 1rem;
+}
+
+.diamonds h3 {
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+    font-family: 'Playfair Display', serif;
+    font-size: 6rem;
+    display: inline-block;
+}
+
+.diamonds .diamond-img{
+    width: 250px;
+    height: 250px;
+}
+
+#mid-section{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+.collection .whole-new-collection-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #2d676b;
+}
+
+.collection .collection-text{
+    font-family: 'Poppins', sans-serif !important;
+    padding: 2.5rem 0.2rem;
+    font-size: 1.2rem;
+}
+
+.collection-right .collection-img{
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+
+.collection .read-more{
+    background-color: #2d676b;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.collection .read-more:hover{
+    background-color: #7ed1d7;
+    color: black;
+}
+
+.collection .WEC{
+    color: rgb(240, 186, 99);
+}
+
+
+.our-products-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.product-grid{
+    display: inline-block;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.product-grid .ring-product{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    
+}
+
+.product-grid .product-title{
+    margin-bottom: 1rem;
+}
+
+.product-grid .add-to-cart-btn{
+    text-decoration: none;
+    background-color: #2d676b;
+    margin: 1rem 0rem;
+    padding: 1rem 6rem;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.product-grid .add-to-cart-btn:hover{
+    background-color: #7ed1d7;
+    color: black;
+}
+
+.common-footer{
+    margin-top: 3rem;
+    width: 100%;
+    height: 300px;
+    background: #7ed1d7;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+.footer-title{
+    margin-top: 4rem;
+}
+
+.categories{
+    font-size: 1.2rem;
+    color: rgb(233, 133, 33);
+}
+
+.copyright{
+    padding-left: 11.9rem;
+}
+
+.common-footer li{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    list-style: none;
+}
+
+.instagram,.facebook,.whatsapp,.paypal,.upi,.rings,.earrings,.necklaces{
+    text-decoration: none;
+    color: black;
+}
+
+.instagram:hover{
+    background: -webkit-linear-gradient(#f9ce34, #ee2a7b,#6228d7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.facebook:hover{
+    background: -webkit-linear-gradient(#316FF6,#739aef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatsapp:hover{
+    background: -webkit-linear-gradient(#25d366,#128c7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paypal:hover{
+    background: -webkit-linear-gradient(#00457C,#0079C1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.upi:hover{
+    background: -webkit-linear-gradient(#1c78f0,#fcd070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rings:hover{
+    background: -webkit-linear-gradient(#d4af37,#fb5e37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.earrings:hover{
+    background: -webkit-linear-gradient(#ee2a7b,#db84a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.necklaces:hover{
+    background: -webkit-linear-gradient(#fb5e37,#ff9a80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*SINGLEPRODUCT PAGE CSS*/
+#singleproduct-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10rem;
+}
+.image-section .main-product-image{
+    width: 100%;
+    height: 70%;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-section h3{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #d4af37;
+}
+.description-section select{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    padding: 0.8rem 0.8rem;
+    font-family: 'Poppins', sans-serif !important;
+    border: 1px solid #128c7e !important;
+}
+
+.pincode-label{
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.pincode-text{
+    padding: 0.8rem 0.8rem;
+    border-radius: 1rem;
+    border: 1px solid #128c7e !important;
+}
+
+.delievery-details{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-details{
+    margin-top: 4rem;
+}
+
+.price-text{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.price-details .add-to-cart-btn{
+    text-decoration: none;
+    background-color: #2d676b;
+    margin: 1rem 0rem;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.price-details .add-to-cart-btn:hover{
+    background-color: #7ed1d7;
+    color: black;
+}
+
+.image-carousel-square{
+    width: 75px;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.product-image-1{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #316FF6;
+    margin-left: 4rem;
+    margin-top: 0;
+}
+.product-image-2{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #cfdcf7;
+    margin-left: 4rem;
+    margin-top: 0;
+}
+
+.product-image-3{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #cfdcf7;
+    margin-left: 4rem;
+    margin-top: 0;
+}
+
+.product-image-4{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #cfdcf7;
+    margin-left: 4rem;
+    margin-top: 0;
+}
+
+.product-image-5{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #cfdcf7;
+    margin-left: 4rem;
+    margin-top: 0;
+}
+
+.description-card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.small-desc-title{
+    font-size: 1.2rem;
+    color: #0079C1;
+    font-weight: 600;
+}
+.small-desc-card-1,.small-desc-card-2,.small-desc-card-3{
+    width: 160px;
+    height: 139px;
+    border: 1px solid #0079C1;
+    border-radius: 10px;
+    padding: 0.2rem 1rem;
+    list-style: none;
+    line-height: 25px;
+}
+.price-details-1{
+    display: none;
+}
+/*SINGLEPRODUCT PAGE CSS*/
+
+/*Support Page*/
+.map-section{
+    margin-top: 3rem;
+}
+
+.contact-us-form{
+    margin-top: 3rem;
+}
+
+.contact-us-title{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.firstName,.lastName,.Email,.Phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.first-name,.last-name,.email,.phone{
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #0079C1;
+}
+
+.submitBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.submit-btn{
+    padding: 1rem 6rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #0079C1;
+    background: #0079C1;
+    margin-bottom: 1rem;
+}
+
+.submit-btn a{
+    text-decoration: none;
+    color: white;
+
+}
+/*Support Page*/
+
+/*Responsive media queries*/
+@media screen and (min-width:375px) and (max-width:400px){
+    body{
+        width: fit-content;
+    }
+    
+    .ecom-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ecom-navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diamonds h3 {
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        display: inline-block;
+    }
+    
+    .diamonds .diamond-img{
+        width: 100px;
+        height: 100px;
+    }
+    #mid-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+    
+    .collection .whole-new-collection-text{
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        color: #2d676b;
+    }
+    
+    .collection .collection-text{
+        font-family: 'Poppins', sans-serif !important;
+        padding: 2.5rem 0.2rem;
+        font-size: 1.2rem;
+    }
+    
+    .collection-right .collection-img{
+        width: 500px;
+        height: 600px;
+        border-radius: 30px;
+        margin-top: 2rem;
+    }
+    
+    .collection .read-more{
+        background-color: #2d676b;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+    
+    .collection .read-more:hover{
+        background-color: #7ed1d7;
+        color: black;
+    }
+    
+    .collection .WEC{
+        color: rgb(240, 186, 99);
+    }
+    
+    .product-grid{
+        display: inline-block;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        margin-left: 0.6rem;
+        margin-right: 0.9rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .common-footer{
+        margin-top: 3rem;
+        height: 300px;
+        background: #7ed1d7;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        justify-items: center;
+    }
+
+    .copyright{
+        display: none;
+        
+    }
+    
+    .map-section{
+        margin-top: 3rem;
+    }
+    
+    .contact-us-form{
+        margin-top: 3rem;
+    }
+    
+    .contact-us-title{
+        font-size: 2rem;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+    
+    .firstName,.lastName,.Email,.Phone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .first-name,.last-name,.email,.phone{
+        padding: 1rem 3rem;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #0079C1;
+    }
+    
+    .submitBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .submit-btn{
+        padding: 1rem 6rem;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #0079C1;
+        background: #0079C1;
+        margin-bottom: 1rem;
+    }
+    
+    .submit-btn a{
+        text-decoration: none;
+        color: white;
+    
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:500px){
+    body{
+        width: 100vh;
+    }
+    
+    .ecom-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ecom-navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diamonds h3 {
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        display: inline-block;
+    }
+    
+    .diamonds .diamond-img{
+        width: 100px;
+        height: 100px;
+    }
+    #mid-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+    
+    .collection .whole-new-collection-text{
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        color: #2d676b;
+    }
+    
+    .collection .collection-text{
+        font-family: 'Poppins', sans-serif !important;
+        padding: 2.5rem 0.2rem;
+        font-size: 1.2rem;
+    }
+    
+    .collection-right .collection-img{
+        width: 500px;
+        height: 600px;
+        border-radius: 30px;
+        margin-top: 2rem;
+    }
+    
+    .collection .read-more{
+        background-color: #2d676b;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+    
+    .collection .read-more:hover{
+        background-color: #7ed1d7;
+        color: black;
+    }
+    
+    .collection .WEC{
+        color: rgb(240, 186, 99);
+    }
+    
+    .product-grid{
+        display: inline-block;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        margin-left: 0.6rem;
+        margin-right: 0.9rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .common-footer{
+        margin-top: 3rem;
+        height: 300px;
+        background: #7ed1d7;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        justify-items: center;
+    }
+
+    .copyright{
+        display: none;
+        
+    }
+
+    .map-section{
+        margin-top: 3rem;
+    }
+    
+    .contact-us-form{
+        margin-top: 3rem;
+    }
+    
+    .contact-us-title{
+        font-size: 2rem;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+    
+    .firstName,.lastName,.Email,.Phone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .first-name,.last-name,.email,.phone{
+        padding: 1rem 3rem;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #0079C1;
+    }
+    
+    .submitBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .submit-btn{
+        padding: 1rem 6rem;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #0079C1;
+        background: #0079C1;
+        margin-bottom: 1rem;
+    }
+    
+    .submit-btn a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    #singleproduct-section{
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .product-image-1{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        border: 1px solid #316FF6;
+        margin-top: 0;
+        margin-left: 4rem;
+    }
+    .product-image-2{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        border: 1px solid #cfdcf7;
+        margin-top: 0;
+        margin-left: 4rem;
+    }
+    .product-image-3{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        border: 1px solid #cfdcf7;
+        margin-top: 0;
+        margin-left: 4rem;
+    }
+    .product-image-4{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        border: 1px solid #cfdcf7;
+        margin-top: 0;
+        margin-left: 4rem;
+    }
+    .product-image-5{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        border: 1px solid #cfdcf7;
+        margin-top: 0;
+        margin-left: 4rem;
+    }
+
+    
+    
+    .description-section h3{
+        font-size: 2rem;
+        margin-top: 0rem;
+        color: #d4af37;
+        text-align: center;
+    }
+    
+
+    .description-section select{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        padding: 0.8rem 0.8rem;
+        font-family: 'Poppins', sans-serif !important;
+        border: 1px solid #128c7e !important;
+    }
+
+    .delievery-details{
+        margin-bottom: 2rem;
+    }
+    .delievery-details .pincode-label{
+        font-size: 1.5em;
+    }
+
+    .delievery-details .pincode-text{
+        font-size: 1.3rem;
+    }
+    .price-details{
+        display: none;
+    }
+
+    .price-details-1{
+        display: block;
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .description-card-section .small-desc-card-1,.small-desc-card-2,.small-desc-card-3{
+        width: 160px;
+        height: 139px;
+        border: 1px solid #0079C1;
+        border-radius: 10px;
+        padding: 0.2rem 1rem;
+        list-style: none;
+        line-height: 25px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:768px){
+    body{
+        width: fit-content;
+    }
+    
+    .ecom-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ecom-navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diamonds h3 {
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        display: inline-block;
+    }
+    
+    .diamonds .diamond-img{
+        width: 100px;
+        height: 100px;
+    }
+    #mid-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+    
+    .collection .whole-new-collection-text{
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        color: #2d676b;
+    }
+    
+    .collection .collection-text{
+        font-family: 'Poppins', sans-serif !important;
+        padding: 2.5rem 0.2rem;
+        font-size: 1.2rem;
+    }
+    
+    .collection-right .collection-img{
+        width: 500px;
+        height: 600px;
+        border-radius: 30px;
+        margin-top: 2rem;
+    }
+    
+    .collection .read-more{
+        background-color: #2d676b;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+    
+    .collection .read-more:hover{
+        background-color: #7ed1d7;
+        color: black;
+    }
+    
+    .collection .WEC{
+        color: rgb(240, 186, 99);
+    }
+    
+    .product-grid{
+        display: flex;
+        flex-direction: column;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        margin-left: 0.6rem;
+        margin-right: 0.9rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .common-footer{
+        margin-top: 3rem;
+        height: 300px;
+        background: #7ed1d7;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        justify-items: center;
+    }
+
+    .copyright{
+        display: none;
+        
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1024px){
+    body{
+        width: fit-content;
+    }
+    
+    .ecom-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ecom-navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diamonds h3 {
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        display: inline-block;
+    }
+    
+    .diamonds .diamond-img{
+        width: 100px;
+        height: 100px;
+    }
+    #mid-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+    
+    .collection .whole-new-collection-text{
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        color: #2d676b;
+    }
+    
+    .collection .collection-text{
+        font-family: 'Poppins', sans-serif !important;
+        padding: 2.5rem 0.2rem;
+        font-size: 1.2rem;
+    }
+    
+    .collection-right .collection-img{
+        width: 500px;
+        height: 600px;
+        border-radius: 30px;
+        margin-top: 2rem;
+    }
+    
+    .collection .read-more{
+        background-color: #2d676b;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+    
+    .collection .read-more:hover{
+        background-color: #7ed1d7;
+        color: black;
+    }
+    
+    .collection .WEC{
+        color: rgb(240, 186, 99);
+    }
+    
+    .product-grid{
+        display: flex;
+        flex-direction: column;
+        border-radius: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .common-footer{
+        margin-top: 3rem;
+        height: 300px;
+        background: #7ed1d7;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        justify-items: center;
+    }
+
+    .copyright{
+        display: none;
+        
+    }
+}
+
+/*Responsive media queries*/
